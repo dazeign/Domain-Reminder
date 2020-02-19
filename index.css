@@ -39,8 +39,15 @@ body{
     padding-left: 8%;
     padding-right: 8%;
 }
+.menus:hover{
+    cursor: pointer;
+    color: rgb(183, 206, 248);
+}
 .mimg{
     margin-bottom: -3px;
+}
+.mimg:hover{
+    color: rgb(183, 206, 248);
 }
 .smallie{
     width: 3px;
@@ -48,6 +55,9 @@ body{
     background: #071E3D;
     opacity: 0.8;
     border-radius: 50px;
+}
+.smallie:hover{
+    color: rgb(183, 206, 248);
 }
 .mainCard{
     float: right;
