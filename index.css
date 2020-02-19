@@ -1,0 +1,254 @@
+/* * {
+    border: 1px solid green
+} */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #209CEE;
+    box-sizing: border-box;
+}
+.drBlur{
+    float: left;
+}
+.topCard{
+    float: right;
+    width: 96.3%;
+    height: 50px;
+    background-color: #209CEE;
+    border-radius: 10px 0px 0px 0px;
+    position: absolute;
+    left: 59px;
+    top: 70px;
+    /* box-shadow: 0 0 20px 1px #2E383E; */
+}
+.menuBar{
+    float: right;
+    height: 50px;
+    width: 40%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #071E3D;
+    font-family: 'Titillium Web', sans-serif;
+}
+.menus{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.mimg{
+    margin-bottom: -3px;
+}
+.smallie{
+    width: 3px;
+    height: 25px;
+    background: #071E3D;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+.mainCard{
+    float: right;
+    width: 96.3%;
+    height: 1024px;
+    background: #071E3D;
+    position: absolute;
+    left: 59px;
+    top: 120px;
+    border-radius: 0 0 0 10px;
+    /* box-shadow: 0 0 20px 1px grey; */
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 20px 0 0 20px;
+}
+.drText{
+    float: left;
+    padding-left: 20px; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+}
+.menuTab{
+    width: 60%;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.menuT{
+    padding: 20px 70px 0 0;
+    text-align: center;
+    width: 12%;
+}
+.building{
+    position: absolute;
+    left: 820px;    
+    top: 70px;
+}
+.midText{
+    display: inline;
+    position: absolute;
+    max-width: 600px;
+    height: 66px;
+    left: 150px;
+    top: 120px;
+    float: left;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 53px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Exo', sans-serif;
+}
+.dom{
+    position: absolute;
+    width: 415px;
+    height: 80px;
+    left: 240px;
+    top: 180px;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 100px;
+    line-height: 84px;
+    color: #FFFFFF;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-shadow: 0px 4px 4px rgba(39, 142, 165, 0.25);
+}
+.ease{
+    position: absolute;
+    width: 419px;
+    height: 66px;
+    left: 240px;
+    top: 300px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 53px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Exo', sans-serif;
+}
+.wallClock{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 150px;
+    top: 370px;
+}
+.register{
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    left: 600px;
+    top: 460px;
+    background: #209CEE;
+    border: 1px solid rgb(54, 161, 231);
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+.register > p{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    line-height: 0px;
+    /* text-decoration: underline; */
+}
+.register > p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #071E3D;
+}
+.tencommandments{
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    left: 150px;
+    top: 668px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    background: #209CEE;
+    border: 1px solid rgb(54, 161, 231);
+    box-sizing: border-box;
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.textten{
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+.crosscheck{
+    position: absolute;
+    width: 467px;
+    height: 37px;
+    left: 150px;
+    top: 530px;
+    color: red;
+
+    }
+.crossText{
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.smallie2{
+    background-color: white;
+    margin-top: 2.5%;
+    width: 5px;
+    height: 250px;
+    border-radius: 50px;
+    border-radius: 5px;
+}
+.crossText>span{
+    padding-left: 3%;
+    color: #209CEE;
+}
+.crossText>span:hover{
+    cursor: pointer;
+    color: #BD2424;
+}
+.feedBack{
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 1220px;
+    top: 725px;
+    background: #209CEE;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.feedText{
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0px;
+    text-decoration-line: underline;
+    color: #FFFEFE;
+    font-family: 'Poppins', sans-serif;
+}
+.mailsvg{
+    
+}
